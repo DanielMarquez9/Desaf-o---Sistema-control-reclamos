@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a th:href="@{/home}">Inicio</a></li>
+            <li><a th:href="@{/logout}">Cerrar Sesión</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <h1>Bienvenido a la página de inicio</h1>
+        <p>Esta es la página principal de la aplicación.</p>
+    </div>
+</body>
+</html>
